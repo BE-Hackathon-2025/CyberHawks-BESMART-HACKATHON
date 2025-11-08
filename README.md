@@ -1,3 +1,75 @@
+# Project Title: UniTown
+
+A small React + Vite web app with integrated AI-assisted features.
+
+## Overview
+
+This project is a React application scaffolded with Vite. It includes UI components, CSS styles, and a small backend directory with Python utilities and a Flask app used for server-side features.
+
+Key files and directories:
+
+- `src/` — React source files and components (e.g. `App.jsx`, `Dashboard.jsx`, components folder).
+- `public/` — Static assets served by Vite.
+- `server/` — Python-based server utilities (`app.py`, `textFormatter.py`, and `serviceAccountKey.json`).
+- `package.json` and `vite.config.js` — Project build and dev configuration.
+
+## AI Assistance and Attribution
+
+To maintain transparency in our development process:
+
+We used AI tools — primarily ChatGPT, Claude, and GitHub Copilot — to assist in our project development.
+AI was utilized to generate:
+
+- The initial React + Vite app template,
+
+- CSS styling patterns and layout structure, and
+
+- Starter code for integrated AI features within our application.
+
+All AI-generated content underwent significant human modification, including restructuring, logic editing, debugging, and feature integration to align with our specific project goals.
+AI also provided conceptual guidance for unfamiliar implementation areas, serving as a learning and problem-solving tool rather than an automatic code source.
+
+Estimated contribution:
+
+Human-written & customized code: ~65%
+
+AI-assisted code: ~35% (a generous estimate, including modified templates and guided integrations)
+
+All AI outputs were reviewed, validated, and adapted by our team, as best as possible in our allocate time, to ensure originality, reliability, and ethical compliance. (See <attachments> above for file contents. You may not need to search or read the file again.)
+
+## Setup (Windows / PowerShell)
+
+1. Install dependencies:
+
+```powershell
+npm install
+```
+
+2. Start the dev server:
+
+```powershell
+npm run dev
+```
+
+3. Build for production:
+
+```powershell
+npm run build
+```
+
+## Notes
+
+- The `server/` folder contains a small Python service. Review `server/requirements.txt` (if present) or `server/app.py` for Python dependencies before running server-side code.
+- Keep any secret keys (e.g., `serviceAccountKey.json`) secure and out of public repositories.
+
+## License
+
+Add your preferred license here.
+
+---
+
+If you'd like, I can update this README with more detailed developer setup instructions (Python server run steps, environment variables, or CI scripts), add a short contributing guide, or add a LICENSE file. Which would you like next?
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
